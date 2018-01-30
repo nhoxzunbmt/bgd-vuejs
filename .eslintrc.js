@@ -1,9 +1,9 @@
 module.exports = {
-  root: true,
+  root: false,
   parser: 'babel-eslint',
   env: {
-    browser: true,
-    node: true
+    browser: false,
+    node: false
   },
   extends: 'standard',
   // required to lint *.vue files
